@@ -1,0 +1,84 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+header{
+  /* background-color: tomato; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ min-height: 50px;
+ border-bottom: 1px solid lightgray;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+  /* background-color: blue; */
+  margin-left: 50px ;
+ display: flex;
+ color: white;
+ height: 40px;
+}
+.container > input{
+  width: 370px;
+  background-color: rgb(218, 212, 212);
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  outline: none;
+  padding: 0rem 1rem;
+}
+.container > input::placeholder{
+  font-size: 18px;
+}
+.container > div{
+  /* height: 100%; */
+  background-color: rgb(15, 14, 14);
+padding: 4px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-right: 15px;
+font-weight: bold;
+}
+.container > div:hover{
+  color: aliceblue;
+  background-color: rgb(56, 52, 52);
+}
+.container2{
+  /* background-color: pink; */
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding: 10px;
+flex: 0.3;
+}
+
+input[type=button]{
+  padding: 0.7rem 1.8rem;
+  margin:0 0.5rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+}
+.container2 input[type=button]:nth-child(1){
+ background-color: white;
+ color: blue;
+ font-weight: bolder;
+
+}
+.container2 input[type=button]:nth-child(1):hover{  
+  background-color:rgb(238, 237, 237);
+  color:blue;
+ }
+.container2 input[type=button]:nth-child(2){
+  background-color: blue;
+  color: white;
+}
+
+.container2 input[type=button]:nth-child(2):hover{  
+  background-color:rgb(4, 4, 211);
+  color:white;
+
+ }
